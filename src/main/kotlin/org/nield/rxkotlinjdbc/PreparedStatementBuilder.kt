@@ -43,6 +43,8 @@ class PreparedStatementBuilder(
         }
     }
 
+
+
     fun parameter(parameter: Pair<String,Any?>) {
         parameter(parameter.first, parameter.second)
     }

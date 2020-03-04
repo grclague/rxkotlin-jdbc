@@ -12,7 +12,8 @@ class UpdateOperation(
     val builder = PreparedStatementBuilder(connectionGetter, { sql, conn -> conn.prepareStatement(sql) }, sqlTemplate)
 
     fun parameters(vararg parameters: Pair<String,Any?>): UpdateOperation {
-        builder.parameters(parameters)
+        parameters.forEach { builder.parameter(it) }
+//        builder.parameter(parameters)
         return this
     }
 

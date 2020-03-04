@@ -24,7 +24,9 @@ dependencies {
     testCompile 'org.xerial:sqlite-jdbc:3.16.1'
     testCompile 'com.zaxxer:HikariCP:2.6.1'
 }
-
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
 /*
 task javadocJar(type: Jar) {
     classifier = 'javadoc'
