@@ -13,7 +13,6 @@ class UpdateOperation(
 
     fun parameters(vararg parameters: Pair<String,Any?>): UpdateOperation {
         parameters.forEach { builder.parameter(it) }
-//        builder.parameter(parameters)
         return this
     }
 

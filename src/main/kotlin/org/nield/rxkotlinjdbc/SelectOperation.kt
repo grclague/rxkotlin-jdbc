@@ -19,7 +19,7 @@ class SelectOperation(
     }, sqlTemplate)
 
     fun parameters(vararg parameters: Pair<String, Any?>): SelectOperation {
-        builder.parameters(parameters)
+        parameters.forEach { builder.parameter(it) }
         return this
     }
 

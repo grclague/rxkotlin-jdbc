@@ -21,6 +21,10 @@ class InsertOperation(
         return this
     }
 
+    fun parameters(vararg parameters: Pair<String, Any?>): InsertOperation{
+        parameters.forEach { builder.parameter(it) }
+        return this
+    }
     fun parameters(vararg parameters: Any?): InsertOperation {
         builder.parameters(parameters)
         return this

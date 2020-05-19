@@ -28,7 +28,7 @@ fun <T> DataSource.batchExecute(sqlTemplate: String,
 fun <T> DataSource.batchExecute(sqlTemplate: String,
                                           elements: Flowable<T>,
                                           batchSize: Int,
-                                          parameterMapper: PreparedStatement.(T) -> Unit,
+                                          parameterMapper: NamedParameterPreparedStatement.(T) -> Unit,
                                           autoClose: Boolean = true
 ) = BatchExecute(
         sqlTemplate = sqlTemplate,
