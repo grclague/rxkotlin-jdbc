@@ -14,6 +14,7 @@ fun PreparedStatement.parameter(pos: Int, argVal: Any?) {
     when (argVal) {
         null -> setObject(pos + 1, null)
         is UUID -> setObject(pos + 1, argVal)
+        is Short -> setShort(pos + 1, argVal)
         is Int -> setInt(pos + 1, argVal)
         is String -> setString(pos + 1, argVal)
         is Double -> setDouble(pos + 1, argVal)
