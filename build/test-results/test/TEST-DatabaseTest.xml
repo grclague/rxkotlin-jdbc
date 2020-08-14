@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DatabaseTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2020-05-19T05:18:17" hostname="grclaptop" time="0.364">
+  <properties/>
+  <testcase name="whereOptional1" classname="DatabaseTest" time="0.171"/>
+  <testcase name="whereOptional2" classname="DatabaseTest" time="0.002"/>
+  <testcase name="flatMapSelectTest" classname="DatabaseTest" time="0.038"/>
+  <testcase name="testConnection" classname="DatabaseTest" time="0.036"/>
+  <testcase name="testFirst" classname="DatabaseTest" time="0.003"/>
+  <testcase name="namedParameterTest" classname="DatabaseTest" time="0.002"/>
+  <testcase name="updateTest2" classname="DatabaseTest" time="0.005"/>
+  <testcase name="singleInsertTest" classname="DatabaseTest" time="0.006"/>
+  <testcase name="batchInsertSequence" classname="DatabaseTest" time="0.024"/>
+  <testcase name="parameterTest" classname="DatabaseTest" time="0.002"/>
+  <testcase name="updateTest" classname="DatabaseTest" time="0.001"/>
+  <testcase name="blockingInsertTest" classname="DatabaseTest" time="0.003"/>
+  <testcase name="multiInsertTest2" classname="DatabaseTest" time="0.004"/>
+  <testcase name="batchInsertFlowable" classname="DatabaseTest" time="0.016"/>
+  <testcase name="pipelineTest" classname="DatabaseTest" time="0.007"/>
+  <testcase name="singleInsertTest2" classname="DatabaseTest" time="0.003"/>
+  <testcase name="singleInsertTest3" classname="DatabaseTest" time="0.003"/>
+  <testcase name="testSequenceCancel" classname="DatabaseTest" time="0.001"/>
+  <testcase name="multiInsertTest" classname="DatabaseTest" time="0.006"/>
+  <testcase name="multiInjectParameterTest" classname="DatabaseTest" time="0.002"/>
+  <testcase name="namedMultipleParameterTest" classname="DatabaseTest" time="0.002"/>
+  <testcase name="deleteTest" classname="DatabaseTest" time="0.001"/>
+  <testcase name="batchInsertObservable" classname="DatabaseTest" time="0.013"/>
+  <testcase name="asMapTest" classname="DatabaseTest" time="0.004"/>
+  <testcase name="testSequence" classname="DatabaseTest" time="0.002"/>
+  <testcase name="asListTest" classname="DatabaseTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
